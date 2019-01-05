@@ -1,0 +1,16 @@
+Question:
+why is it useful and necessary to explicitly identify proxy tasks and proxy values when you work on a new data visualization project?
+
+Answer :
+
+All data visualisation project starts with data. For an analyst it is very important to know the type of data he/she would be working to address a specific real world problem. An analyst might be working on problem of ranking the best Universities in the World, for example we see these ratings on the QS World Ranking of Universities. There can be many questions that the analyst is going to face during the whole process. The process of breaking down these questions in to some meaningful tasks that can be computed using the available data is operationalization. This process is usually iterative, exploratory and sometime surprising.
+
+It is necessary to identify proxy tasks and proxy values when we work on new data visualization project to make these questions that arise while solving a problem concrete. Proxies are partial and imperfect representations of the abstract thing that the analyst is really interested in. For example "high university ranking" can be proxy for "best" university ranking in World. There are two important types of proxies in operationalization.
+
+1. One is proxy task that can stand in for original. It's a lower level task. The result of the proxy reflects on the answer to the original question. The task itself is very closely related to data. It can be easily measured using some quantitative tools, such as visualization or statistical analysis.
+
+2. Another one is proxy value. It's an attribute in data that stands in for a more abstract concept. It can be derived from data or can be an existing attribute.
+
+If the proxies are chosen carefully, we can obtain well-operationalized data. And it fulfils following criteria :
+
+can be computed based on data, can make reference to attributes of data and high level abstract questions can be traced down to set of concrete and actionable tasks.
